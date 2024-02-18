@@ -1,0 +1,65 @@
+.header-main {
+    margin-top: 121px;
+    transition: all 2s;
+}
+
+@media only screen and (min-width: 574px){
+    .header-main {
+        margin-top: 145px;
+        transition: all 2s;
+    }
+
+}
+
+@media only screen and (min-width: 765px){
+    .header-main {
+        margin-top: 115px;
+        transition: all 2s;
+    }
+
+}
+
+@media only screen and (min-width: 990px){
+    .header-main {
+        margin-top: 65px;
+        transition: all 2s;
+    }
+
+}
+
+.intro {
+	background-image: url("../images/intro.jpg");
+	background-size: cover;
+}
+
+.opac{
+    opacity: .8;
+    border-radius: 50px;
+}
+
+/* stiluri pentru pagina contacte */
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  /* adaugate */
+  .md-form i {
+      background:  #fdc325e3;
+      padding: 10px;
+      border-radius: 4px;
+  }
+  .ic i {
+      background: #fdc325e3;
+      padding: 15px;
+      border-radius: 100%;
+  }
